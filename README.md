@@ -55,7 +55,7 @@ chmod +x cleanup-mac.sh
 
 ```bash
 mkdir -p ~/bin
-ln -sf ~/Documents/PROJECTS/cleanup-mac/cleanup-mac.sh ~/bin/cleanup-mac
+ln -sf ~/cleanup-mac/cleanup-mac.sh ~/bin/cleanup-mac
 ```
 
 Garanta que `~/bin` está no `PATH` (no `~/.zshrc`):
